@@ -1,0 +1,32 @@
+#louding{
+    background-color: #fff;
+	height: 11px;
+	width: 10px;
+	position: fixed;
+	z-index: 999999;
+	margin-top: 0px;
+	top: 0px;
+}
+
+#loading-center{
+	width: 10px;
+	height: 10px;
+	position: relative;
+	}
+#loading-center-absolute {
+	position: absolute;
+	left: 10px;
+	top: 40px;
+	width: 25%;
+	transform: translate(-50%, -50%);
+
+}
+.loading-logo-icon{
+	position: absolute;
+	top: -60px;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	animation: eucal-loading  5s linear infinite;
+	animation-timing-function: cubic-bezier(.75, .04,0,.86);
+}
